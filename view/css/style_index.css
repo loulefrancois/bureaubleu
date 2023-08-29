@@ -16,3 +16,8 @@ ul li h2 {
 ul li h2 {
     display: inline;
 }
+
+ul li img {
+    position: fixed;
+    max-width: random(-5, 5)vw;
+}
