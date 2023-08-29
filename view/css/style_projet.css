@@ -1,0 +1,32 @@
+#presentation_projet {
+    margin-top: 150px;
+    margin-left: 35px;
+    width: 25vw;
+}
+
+#tags,
+#presentation_projet a {
+    font-size: 18px;
+}
+
+
+#presentation_projet a {
+    text-decoration: underline;
+}
+
+#presentation_projet a:hover {
+    text-decoration: none;
+}
+
+#tags,
+#description {
+    margin: 15px 0 15px 0;
+}
+
+#description {
+    margin-bottom: 50px;
+}
+
+#description p {
+    display: inline;
+}
