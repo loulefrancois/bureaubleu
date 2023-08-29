@@ -27,6 +27,38 @@
 </head>
 
 <body>
+
+    <div class="loader">
+        <h1>Veuillez patientez pendant le chargement de la page.</h1>
+    </div>
+
+    <style>
+        .loader {
+            background: url('images/ajax-loader.gif') 50% 50% no-repeat rgba(255, 255, 255, 0.8);
+            cursor: wait;
+            height: 100%;
+            left: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+
+        .loader h1 {
+            background: none;
+            border: none;
+            color: #458976;
+            font-size: 22px;
+            font-family: "Open Sans", sans-serif;
+            font-variant: small-caps;
+            font-weight: 700;
+            height: 700px;
+            line-height: 700px;
+            margin: 0 0 10px;
+            padding: 0;
+            text-align: center;
+        }
+    </style>
     <!-- //////////////////////////////////// -->
     <!-- ///////////// HEADER /////////////// -->
     <!-- //////////////////////////////////// -->
@@ -46,50 +78,151 @@
     <!-- //////////////////////////////////// -->
 
     <ul>
-        <li>
-            <p>
-                <h2>memo!</h2> — Web design et développement/Conception éditoriale/Mise en espace/Affiche
-            </p>
-            <img src="view/img/memo.png"
-                style="left: 5vw;" />
-        </li>
-        <li>
-            <h2>Cros & Leclercq architectes</h2> — Web design et développement/Edition
-        </li>
-        <li>
-            <h2>Le nouveau printemps</h2> — Programmation murale
-        </li>
-        <li>
-            <h2>Biosylva</h2> — Identité graphique/Packaging/Pictogramme
-        </li>
-        <li>
-            <h2>Molto</h2> — Identité graphique/Mise en espace
-        </li>
-        <li>
-            <h2>Il faut qu’une porte soit ouverte ou fermée</h2> — Scénographie
-        </li>
-        <li>
-            <h2>Artysane</h2> — Identité graphique/Web design et développement
-        </li>
-        <li>
-            <h2>Vu à 130</h2> — Conception éditoriale
-        </li>
-        <li>
-            <h2>Les vases de Valentine</h2> — Conception éditoriale
-        </li>
-        <li>
-            <h2>Balade architecturale en Languedoc Roussillon</h2> — Conception éditoriale
-        </li>
-        <li>
-            <h2>Bienvenue à Villefranche</h2> — Web design et développement
-        </li>
-        <li>
-            <h2>Port Leucate, l’utopie comme héritage</h2> — Affiche
-        </li>
-        <li>
-            <h2>Hello map</h2> — Web design et développement
-        </li>
+
+        <!-- memo! -->
+        <a href="projet/memo.html">
+            <li>
+                <p>
+                    <h2>memo!</h2> — Web design et développement/Conception éditoriale/Mise en espace/Affiche
+                </p>
+                <img id="img1" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Cros & Leclerq -->
+        <a href="projet/cros-et-leclercq-architectes.html">
+            <li>
+                <p>
+                    <h2>Cros & Leclercq architectes</h2> — Web design et développement/Edition
+                </p>
+                <img id="img2" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Nouveau Printemps -->
+        <a href="projet/nouveau-printemps.html">
+            <li>
+                <p>
+                    <h2>Le nouveau printemps</h2> — Programmation murale
+                </p>
+                <img id="img3" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Biosylva -->
+        <a href="projet/biosylva.html">
+            <li>
+                <p>
+                    <h2>Biosylva</h2> — Identité graphique/Packaging/Pictogramme
+                </p>
+                <img id="img4" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Molto -->
+        <a href="projet/molto.html">
+            <li>
+                <p>
+                    <h2>Molto</h2> — Identité graphique/Mise en espace
+                </p>
+                <img id="img5" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Il faut qu'une porte soit ouverte ou fermée -->
+        <a href="projet/il-faut-quune-porte-soit-ouverte-ou-fermee.html">
+            <li>
+                <p>
+                    <h2>Il faut qu’une porte soit ouverte ou fermée</h2> — Scénographie
+                </p>
+                <img id="img6" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Artysane -->
+        <a href="projet/artysane.html">
+            <li>
+                <p>
+                    <h2>Artysane</h2> — Identité graphique/Web design et développement
+                </p>
+                <img id="img7" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Vue à 130 -->
+        <a href="projet/vu-a-130.html">
+            <li>
+                <p>
+                    <h2>Vu à 130</h2> — Conception éditoriale
+                </p>
+                <img id="img8" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Les vases de Valentine Schlegel -->
+        <a href="projet/les-vases-de-Valentine-Schlegel.html">
+            <li>
+                <p>
+                    <h2>Les vases de Valentine Schlegel</h2> — Conception éditoriale
+                </p>
+                <img id="img9" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Balade architecturale en Languedoc Roussillon -->
+        <a href="projet/balade-architecturale-en-languedoc-roussillon.html">
+            <li>
+                <p>
+                    <h2>Balade architecturale en Languedoc Roussillon</h2> — Conception éditoriale
+                </p>
+                <img id="img10" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Bienvenue à Villefranche -->
+        <a href="projet/bienvenue-a-villefranche.html">
+            <li>
+                <p>
+                    <h2>Bienvenue à Villefranche</h2> — Web design et développement
+                </p>
+                <img id="img11" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- Port Leucate -->
+        <a href="projet/port-leucate_lutopie-comme-heritage.html">
+            <li>
+                <p>
+                    <h2>Port Leucate, l’utopie comme héritage</h2> — Affiche
+                </p>
+                <img id="img12" src="view/img/memo.png" />
+            </li>
+        </a>
+
+        <!-- hello map -->
+        <a href="projet/hello-map.html">
+            <li>
+                <h2>Hello map</h2> — Web design et développement
+                </p>
+                <img id="img13" src="view/img/memo.png" />
+            </li>
+        </a>
     </ul>
+
+
+    <script>
+        $(function () {
+            var i = 1;
+            while ($("#img" + i).length == 1) {
+                $("#img" + i).css({
+                    'top': Math.random() * 85 + "vh",
+                    'left': Math.random() * 80 + "vw",
+                    'width': Math.random() * (30 - 15) + 15 + "vw"
+                });
+                i++;
+            }
+        });
+    </script>
 
     <!-- //////////////////////////////////// -->
     <!-- /////////// PROJETS TEL //////////// -->
