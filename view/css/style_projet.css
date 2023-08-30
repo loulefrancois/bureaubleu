@@ -2,6 +2,8 @@
     margin-top: 150px;
     margin-left: 35px;
     width: 25vw;
+    position: fixed;
+    display: inline-block;
 }
 
 #tags,
@@ -29,4 +31,91 @@
 
 #description p {
     display: inline;
+}
+
+#images {
+    display: inline-block;
+    width: 68vw;
+    margin-left: 30vw;
+    margin-top: 150px;
+    /* border: 1px solid; */
+}
+
+.img10 {
+    width: 9.5%;
+}
+
+.img20 {
+    width: 19.5%;
+}
+
+.img30 {
+    width: 29.5%;
+}
+
+.img40 {
+    width: 39.5%;
+}
+
+.img50 {
+    width: 49.5%;
+}
+
+.img50 {
+    width: 49.5%;
+}
+
+.img60 {
+    width: 59.5%;
+}
+
+.img70 {
+    width: 69.5%;
+}
+
+.img80 {
+    width: 79.5%;
+}
+
+.img90 {
+    width: 89.5%;
+}
+
+.img100 {
+    width: 99.5%;
+}
+
+@media (max-aspect-ratio: 100/99) {
+
+    #presentation_projet {
+        margin-top: 150px;
+        margin-left: 35px;
+        margin-right: 35px;
+        width: inherit;
+        position: inherit;
+        display: inherit;
+    }
+
+    #images {
+        display: inline-block;
+        width: inherit;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .img10,
+    .img20,
+    .img30,
+    .img40,
+    .img50,
+    .img60,
+    .img70,
+    .img80,
+    .img90,
+    .img100 {
+        width: 100%;
+    }
+
 }
