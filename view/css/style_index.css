@@ -28,8 +28,13 @@ ul li img {
 
 li:hover img {
     opacity: 1;
+    cursor: pointer;
 }
 
-li:hover li {
-    opacity: 0.5;
+li:hover p {
+    color: gray;
+}
+
+li p {
+    font-size: ;
 }
