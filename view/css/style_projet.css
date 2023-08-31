@@ -6,11 +6,17 @@
     display: inline-block;
 }
 
-#tags,
 #presentation_projet a {
     font-size: 18px;
 }
 
+
+h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 0;
+    display: inline;
+    font-size: 18px;
+}
 
 #presentation_projet a {
     text-decoration: underline;
@@ -18,6 +24,12 @@
 
 #presentation_projet a:hover {
     text-decoration: none;
+}
+
+#presentation_projet .date,
+#presentation_projet #tags,
+#presentation_projet #tags a {
+    font-size: 12px;
 }
 
 #tags,
@@ -31,6 +43,7 @@
 
 #description p {
     display: inline;
+    font-size: 18px;
 }
 
 #images {
@@ -39,6 +52,27 @@
     margin-left: 30vw;
     margin-top: 150px;
     /* border: 1px solid; */
+}
+
+#images p {
+    font-size: 18px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    width: 50%;
+    /* border: 1px solid; */
+}
+
+#images .ligne {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 60px 0 60px 0;
+}
+
+#images img {
+    /* margin-bottom: 10px; */
+    vertical-align: top;
+    /* padding: 3px; */
+    border: 5px solid white;
 }
 
 .img10 {
@@ -51,6 +85,11 @@
 
 .img30 {
     width: 29.5%;
+}
+
+.img33 {
+    width: 32.9%;
+    /* border: 1px solid; */
 }
 
 .img40 {
@@ -67,6 +106,11 @@
 
 .img60 {
     width: 59.5%;
+}
+
+.img66 {
+    width: 66.2%;
+    /* border: 1px solid; */
 }
 
 .img70 {
@@ -114,7 +158,9 @@
     .img70,
     .img80,
     .img90,
-    .img100 {
+    .img100,
+    .img33,
+    .img66 {
         width: 100%;
     }
 

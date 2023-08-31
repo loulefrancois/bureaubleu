@@ -9,9 +9,15 @@ ul li {
 }
 
 ul li,
-ul li h2 {
+ul li h2,
+ul li a p {
     font-size: 30px;
 }
+
+/* ul li a p {
+    border: 1px solid;
+    width: fit-content;
+} */
 
 ul li h2 {
     display: inline;
@@ -26,15 +32,11 @@ ul li img {
     transition: all 0.5s ease-in-out;
 }
 
-li:hover img {
+/* li:hover img {
     opacity: 1;
     cursor: pointer;
-}
+} */
 
-li:hover p {
-    color: gray;
-}
-
-li p {
-    font-size: ;
-}
+/* ul li a p:hover {
+    font-size: 40px;
+} */

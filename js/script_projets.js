@@ -6,11 +6,25 @@ $("#apropos").load("../header-description.html");
 
 $("#apropos").load("header-description.html");
 
-// $("li").mouseover(function () {
-//     $("li").not(this).css("opacity", "0.2");
-//     $("li img").css("opacity", "0.2");
-// });
+$("ul li a p").mouseover(function () {
+    $("ul li a p").not(this).css("opacity", "0.2");
+});
 
-// $("li").mouseout(function () {
-//     $("li").not(this).css("opacity", "1");
-// });
+$("li").mouseover(function () {
+    $(this).find("img").css({
+        "opacity": "1"
+    });
+    // $("img").not($(this).parent().find("img")).css({
+    //     "opacity": "0"
+    // });
+});
+
+$("li").mouseout(function () {
+    $(this).find("img").css({
+        "opacity": "0"
+    });
+
+    // $("img").not($(this).parent().find("img")).css({
+    //     "opacity": "0"
+    // });
+});
