@@ -59,11 +59,11 @@ a {
 @media (max-aspect-ratio: 100/99) {
 
     #header img {
-        width: 180px;
+        width: 200px;
     }
 
     #header #informations p {
-        font-size: 20px;
+        font-size: 25px;
     }
 
 }
