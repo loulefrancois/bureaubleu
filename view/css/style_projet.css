@@ -1,7 +1,7 @@
 #presentation_projet {
     margin-top: 150px;
     margin-left: 35px;
-    width: 25vw;
+    width: 21vw;
     position: fixed;
     display: inline-block;
 }
@@ -13,9 +13,9 @@
 
 h1 {
     font-family: 'Noto Serif JP', serif;
-    font-weight: 0;
-    display: inline;
-    font-size: 18px;
+    font-weight: 500;
+    /* display: inline; */
+    font-size: 15px;
 }
 
 #presentation_projet a {
@@ -29,7 +29,7 @@ h1 {
 #presentation_projet .date,
 #presentation_projet #tags,
 #presentation_projet #tags a {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 #tags,
@@ -43,24 +43,27 @@ h1 {
 
 #description p {
     display: inline;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 200;
 }
 
 #images {
     display: inline-block;
-    width: 68vw;
-    margin-left: 30vw;
+    width: 70vw;
+    margin-left: 27vw;
     margin-top: 150px;
     /* border: 1px solid; */
 }
 
 #images p {
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     width: 50%;
+    font-weight: 200;
     /* border: 1px solid; */
 }
+
 
 #images .ligne {
     width: 100%;
@@ -73,6 +76,11 @@ h1 {
     vertical-align: top;
     /* padding: 3px; */
     border: 5px solid white;
+}
+
+
+#titre p .titre {
+    font-weight: 500;
 }
 
 .img10 {
