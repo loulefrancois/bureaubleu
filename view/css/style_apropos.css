@@ -1,0 +1,35 @@
+#blablabonjour {
+    margin-top: 300px;
+    width: 35vw;
+    margin-left: 40vw;
+    margin-bottom: 300px;
+}
+
+#blablabonjour a:hover,
+#contact a:hover  {
+    opacity: 0.5;
+}
+
+#contact {
+    position: fixed;
+    bottom: 35px;
+    left: 35px;
+}
+
+@media (max-aspect-ratio: 100/99) {
+
+    #blablabonjour {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: inherit;
+        width: inherit;
+    }
+
+    #contact {
+        position: inherit;
+        margin-top: 100px;
+        margin-bottom: 35px;
+        margin-left: 35px;
+    }
+
+}
