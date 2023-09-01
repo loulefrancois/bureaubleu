@@ -16,6 +16,8 @@ h1 {
     font-weight: 500;
     /* display: inline; */
     font-size: 15px;
+    /* display: inline; */
+    margin-bottom: 15px;
 }
 
 #presentation_projet a {
@@ -79,7 +81,7 @@ h1 {
 }
 
 
-#titre p .titre {
+#images p .soustitre {
     font-weight: 500;
 }
 
